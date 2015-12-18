@@ -19,15 +19,7 @@ function setup() {
 	createCanvas(800, 800);
 
 }
-//function draw() {
-	//background(0, 0, 0);
-	//noStroke();
-	//fill(255, 255, 255, 50);
 
-	//for (var i = 0; i < 100; i++){
-		//ellipse(mouseX+random(-40, 40), mouseY+random(-40, 40), 20, 20);
-	//}
-//}
 
 //house and room load
 function mousePressed() {
@@ -50,20 +42,16 @@ function draw() {
 }
 function drawPageHouseScene() {
  image(houseImg, 0, 0);
-
+image(rattImg, mouseX, mouseY);
 
 }
 function drawPageRoomScene() {
 	image(roomImg, 0, 0);
+image(rattImg, mouseX, mouseY);
 }
+
 function drawPageBathroomScene() {
 
 	image(bathroomImg, 0, 0);
+image(rattImg, mouseX, mouseY);
 }
-//function draw() {
-	//background(255, 255, 255);
-	//put background here
-
-	//image(rattImg, mouseX, mouseY);
-//image(houseImg,0,0);
-//}
